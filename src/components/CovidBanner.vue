@@ -27,8 +27,8 @@
 </template>
 
 <script>
-import Cta from '@/components/Cta.vue';
 import WOW from 'wow.js/dist/wow.min';
+import Cta from '@/components/Cta.vue';
 
 export default {
   name: 'covid-banner',

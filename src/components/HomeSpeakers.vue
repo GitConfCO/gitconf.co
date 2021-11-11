@@ -36,10 +36,10 @@
 </template>
 
 <script>
+import WOW from 'wow.js/dist/wow.min';
 import { getImage } from '@/utils/media';
 import Cta from '@/components/Cta.vue';
 import speakers from '@/assets/data/speakers';
-import WOW from 'wow.js/dist/wow.min';
 
 export default {
   name: 'home-speakers',

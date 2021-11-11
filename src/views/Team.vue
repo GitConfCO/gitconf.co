@@ -43,9 +43,9 @@
 </template>
 
 <script>
+import WOW from 'wow.js/dist/wow.min';
 import { getIconClasses, getImage } from '@/utils/media';
 import team from '@/assets/data/team';
-import WOW from 'wow.js/dist/wow.min';
 
 export default {
   data() {

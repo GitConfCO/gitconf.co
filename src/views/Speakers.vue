@@ -38,9 +38,9 @@
 </template>
 
 <script>
+import WOW from 'wow.js/dist/wow.min';
 import { getIconClasses, getImage } from '@/utils/media';
 import speakers from '@/assets/data/speakers';
-import WOW from 'wow.js/dist/wow.min';
 
 export default {
   data() {

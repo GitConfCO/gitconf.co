@@ -39,9 +39,9 @@
 </template>
 
 <script>
+import WOW from 'wow.js/dist/wow.min';
 import { getImage } from '@/utils/media';
 import sponsors from '@/assets/data/sponsors';
-import WOW from 'wow.js/dist/wow.min';
 
 export default {
   name: 'home-sponsors',
